@@ -21,7 +21,6 @@ RUN ls -la
 
 RUN chmod +x start.sh
 
-ENTRYPOINT ["sh","-c","/opt/start.sh"]
-
-#CMD ["./start.sh"]
+#ENTRYPOINT ["sh","-c","/opt/start.sh"]
+CMD ["./start.sh"]
 #RUN start.sh
